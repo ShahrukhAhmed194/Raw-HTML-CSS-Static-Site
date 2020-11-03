@@ -1,0 +1,152 @@
+/*index page classes*/
+.header_section{
+    background-color: grey;
+    width: 1340px;
+}
+.header_section:hover{
+    background-color: skyblue;
+}
+.content_section{
+    background-color: skyblue;
+    float: left;
+    width: 1340px;
+}
+   
+.content_section:hover{
+    background-color: grey;
+    
+}
+.fotter_secton{
+    background-color: grey;
+    width: 1340px;
+    float: left;
+}
+
+.fotter_secton:hover{
+   background-color: skyblue;
+    width: 1340px;
+    
+}
+table,th,td{ 
+  border: 0px solid red;
+  border-collapse: collapse;
+}
+
+iframe{
+    border: 8px solid white;
+    outline: 4px solid black;
+    outline-offset: 5px;
+}
+h1{
+    font-family: 'Long Cang',cursive;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: underline;
+}
+h4{
+  -webkit-box-shadow: 0px 3px 0px 2px rgba(0,0,0,0.1), 0px 6px 0px 4px rgba(0,0,0,0.1), 0px 9px 0px 6px rgba(0,0,0,0.1), 0px 12px 0px 8px rgba(0,0,0,0.1), 0px 15px 0px 10px rgba(0,0,0,0.1), 0px 18px 0px 12px rgba(0,0,0,0.1), 0px 21px 0px 14px rgba(0,0,0,0.1), 0px 24px 0px 16px rgba(0,0,0,0.1), 0px 27px 0px 18px rgba(0,0,0,0.1), 0px 30px 0px 20px rgba(0,0,0,0.1), inset 29px -21px 4px 7px rgba(0,0,0,0.7); 
+    box-shadow: 0px 3px 0px 2px rgba(0,0,0,0.1), 0px 6px 0px 4px rgba(0,0,0,0.1), 0px 9px 0px 6px rgba(0,0,0,0.1), 0px 12px 0px 8px rgba(0,0,0,0.1), 0px 15px 0px 10px rgba(0,0,0,0.1), 0px 18px 0px 12px rgba(0,0,0,0.1), 0px 21px 0px 14px rgba(0,0,0,0.1), 0px 24px 0px 16px rgba(0,0,0,0.1), 0px 27px 0px 18px rgba(0,0,0,0.1), 0px 30px 0px 20px rgba(0,0,0,0.1), inset 29px -21px 4px 7px rgba(0,0,0,0.7);
+}
+
+i{
+    font-size: 40px;
+    color: darkslategrey;
+}
+i:hover{
+   
+    transform: translate(25px);
+    transition: 2s;
+}
+.Discount{
+        color: #FFFFFF;
+        text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+        text-decoration: line-through;
+    }
+.image{
+    text-align: center;
+    float: left;
+    padding: 20px;
+}
+.image:hover{
+   transform: scale(1.05);
+    transition: 1s;
+    border: 5 px solid black;
+    opacity: .5;
+    
+}
+.product{
+    color: black;
+    float: left;
+    padding: 15px;
+}
+.sproduct{
+    height: 250;
+    width: 200;
+    float: left;
+    padding: 5px;
+    border: 2px solid black;
+    text-indent: 1px;
+    text-transform: uppercase;
+}
+.sproduct:hover{
+    transform: skewY(10deg);
+    transition: 1s;
+}
+p{
+    text-decoration: line-through;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border: 5px dotted grey;
+    border-radius: 50%;
+    text-align: center;
+    color: grey;
+   
+}
+.circle:hover{
+    text-align: center;
+    transform: rotate(360deg);
+    transition: 1s;
+   
+}
+.sec1{
+    width: 400px;
+    text-align: left;
+    float: left;
+    color: black;
+    padding: 20px;
+     
+    
+}
+.sec2{
+    width: 400px;
+    text-align:left;
+    float: right;
+    color: black;
+    padding: 50px 5px 5px 5px;
+}
+/*index page classes end*/
+
+/*signup page classes*/
+.rightside{
+    height: 800px;
+    width: 660px;
+    background-color: skyblue;
+    float: left;
+}
+.leftside{
+    height: 800px;
+    width: 670px;
+    float: left;
+    border: 1px solid black;
+}
+
+/*signup page classes end*/
+/*about us class*/
+font-face{
+    font-family:"font1";
+    src: url(media/speedphreak3dital.ttf);
+}
+/*about us class closed*/
+
