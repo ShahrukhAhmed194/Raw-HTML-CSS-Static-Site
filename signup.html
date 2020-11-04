@@ -2,43 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>SIGNING UP</title>
+    <title>SignUP</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shorcut icon" href="media/favicon.ico">
+    <link rel="shortcut icon" href="media/favicon-dcar.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Arimo|Long+Cang|Ma+Shan+Zheng&display=swap" rel="stylesheet">
 </head>
 <body>
-        <!-- navbar -->
-        <div class="header_section">
-        
-    <table width="100%">
-        <tr>
-            <th><div class="circle">
+<!--  header section -->
+   <div class="header_section">
+        <nav>
+    <ul>
+        <li><div class="circle" text-align="left">
               <i class="fas fa-truck-moving"></i>
-             </div></th>
-            <th><a href="index.html">HOME</a></th>
-            <th><a href="aboutus.html">ABOUT US</a></th>
-            <th><a href="contactus.html">CONTACT</a></th>
-            <th><a href="signup.html">SIGN UP</a></th>
-        </tr>
-    </table>
-      </div>
-      <!-- navbar closed -->
-      <!-- signup form -->
-       <div class="rightside">
+             </div></li>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="index.html">ABOUT US</a></li>
+        <li><a href="index.html">CONTACT US</a></li>
+        <li><a href="signup.html">SIGN UP</a></li>
+    </ul>
+    </nav>
+   </div>
+<!--  header section end-->
+
+<!--   content section-->
+    <div class="content_section">
+         <!-- signup form -->
+    <div class="leftside">
         <form action="index.html">
             <fieldset>
-                <legend target="_blank" style ="" align= "center"><h2>Please Sign up First..</h2></legend>
-                <lebel for="fn">First Name     : </lebel><input type="text" id = "fn" placeholder= "first name"><br><br> 
-                <lebel for="mn">Middle Name    : </lebel><input type="text" id = "fn" placeholder=  "middle name"><br><br>
-                <lebel for ="ln">Last Name     : </lebel><input type="text" id="ln" placeholder="last name"><br><br>
-                <lebel for="phn">Phone Number  : </lebel><input type="number" id="phn" placeholder="phone number"><br><br>
-                <lebel for="bdate">Birth Date   :</lebel><input type="date" id="bdate" placeholder="birth date"><br><br>
-                <lebel for="Otime">Office Time   :</lebel><input type="time" id="otime" placeholder="office time"><br><br>
+                <legend target="_blank" style="" align="center">
+                    <h2>Please Sign up First..</h2></legend>
+                <lebel for="fn">First Name : </lebel>
+                <input type="text" id="fn" placeholder="first name">
+                <br>
+                <br>
+                <lebel for="mn">Middle Name : </lebel>
+                <input type="text" id="fn" placeholder="middle name">
+                <br>
+                <br>
+                <lebel for="ln">Last Name : </lebel>
+                <input type="text" id="ln" placeholder="last name">
+                <br>
+                <br>
+                <lebel for="phn">Phone Number : </lebel>
+                <input type="number" id="phn" placeholder="phone number">
+                <br>
+                <br>
+                <lebel for="bdate">Birth Date :</lebel>
+                <input type="date" id="bdate" placeholder="birth date">
+                <br>
+                <br>
+                
+                <label for="payment">Payment Method :</label>
+                <select name="" id="">
+                    <option value="p">Credit Card</option>
+                    <option value="p">BKash</option>
+                    <option value="p">DBBL</option>
+                    <option value="p">Nogod</option>
+                </select>
+                <br>
+                <br>
+                <label for="accnum">Account Number :</label>
+                <input type="text" id="an" placeholder="017xxxxxxxx">
+                <br>
+                <br>
+                <lebel for="Otime">Office Time :</lebel>
+                <input type="time" id="otime" placeholder="office time">
                 <br>
                 <br>
                 <br>
-                <h2>Choose Your Country,Religion and Gender </h2><hr>
+                <br>
+                <br>
+                <h2>Choose Your Country,Religion and Gender </h2>
+                <hr>
                 <select name="" id="">
                     <option value="c">Bangladesh</option>
                     <option value="c">India</option>
@@ -54,31 +91,89 @@
                     <option value="s">Male</option>
                     <option value="s">Female</option>
                     <option value="s">Common</option>
-                    <hr>
-                </select>
-                
+                    <hr> </select>
                 <h2>Choose your hobbies </h2>
-                <lebel for ="h">Fishing</lebel><input type="checkbox">
-                <lebel for="h">Movies</lebel><input type="checkbox">
-                <lebel for="h">Others</lebel><input type="checkbox">
+                <lebel for="h">Fishing</lebel>
+                <input type="checkbox">
+                <lebel for="h">Movies</lebel>
+                <input type="checkbox">
+                <lebel for="h">Others</lebel>
+                <input type="checkbox">
                 <h1>Other hobbies</h1>
-                <textarea name="hobby" id="hobby" cols="30" rows="10"></textarea>
-                <h2>Please select a color</h2>
-                <lebel for="co"></lebel><input type="color"><br><br>
-                <a href="index.html"><input type="submit" value="sign in"></a>
-               
+                <textarea name="hobby" id="hobby" cols="30" rows="10" text-align="left"></textarea>
+                <h2>Please select your favourite color</h2>
+                <lebel for="co"></lebel>
+                <input type="color">
+                <br>
+                <br>
+                <a href="index.html">
+                    <input type="submit" value="sign in">
+                </a>
             </fieldset>
         </form>
         <!-- signup form end -->
-        
         <h5 target="_blank" style="" align="center"> <a href="https://www.facebook.com" >to connect with facebook click here </a> </h5>
-       <br>
-       <p target="_blank" style="" align="left">&copy; Copyright By Shahrukh </p>
-       </div>
-       <!-- rightside image -->
-       <div class="leftside">
-           <img src="media/signupgirl.jpg" alt="#" height="800" width="660px">
-       </div>
-       <!-- rightside image end-->
+        <br>
+        <p target="_blank" style="" align="left">&copy; Copyright By Shahrukh </p>
+    </div>
+    <!-- rightside image -->
+    <div class="rightside"> <img src="media/signupgirl.jpg" alt="#" height="950" width="660px"> </div>
+    <!-- rightside image end-->
+    </div> 
+<!--   content section-->
+
+        <!-- fotter section -->
+      <div class="fotter_secton">
+          <marquee behavior="alternate" direction="#" scrollamount="20" onmouseover="this.stop()" onmouseout="this.start()"><h1>Please Check out our lattest products and shows...</h1></marquee>
+           <!-- video links -->
+            <table>
+            <th>
+                <figure>
+                <iframe width="250" height="250" src="https://www.youtube.com/embed/-YjAj4UuWSk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <figcaption> otherproducts</figcaption>
+                </figure>
+            </th>
+            <th>
+                <figure>
+                <iframe width="250" height="250" src="https://www.youtube.com/embed/rcQvgknT56k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <figcaption>Upcoming offers</figcaption>
+                </figure>
+            </th>
+            <th>
+                 <iframe width="250" height="250" src="https://www.youtube.com/embed/4zwykKcZEJs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <figcaption>Our Fashion Trend</figcaption>
+           </th>
+           <th>
+                <figure>
+                <iframe width="250" height="250" src="https://www.youtube.com/embed/aJOTlE1K90k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <figcaption>Our Office</figcaption>
+                </figure>
+          </th>
+         </table>
+      <!-- video links -->
+      <!-- fotter part1 -->
+      <div class="sec1">
+          <h1>HELP CENTER</h1>
+          <h4>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Facere eosbr <br> facilis praesentium ut nam voluptatum <br>sit, eveniet corrupti dolorem? Explicabo. <br>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Facere eosbr <br> facilis praesentium ut nam voluptatum <br>sit, eveniet corrupti dolorem? Explicabo. <br></h4>
+      </div>
+      <!-- fotter part1 end-->
+      <!-- fotter part2 -->
+      <div class="sec1">
+         <h1>About Us</h1>
+         
+          <h4>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Facere eosbr <br> facilis praesentium ut nam voluptatum <br>sit, eveniet corrupti dolorem? Explicabo. <br>Lorem ipsum dolor sit amet,<br> consectetur adipisicing elit. Facere eosbr <br> facilis praesentium ut nam voluptatum <br>sit, eveniet corrupti dolorem? Explicabo. <br></h4>
+      </div>
+      <!-- fotter part2 end -->
+      <!-- fotter part3 -->
+      <div class="sec2">
+         <h1>Contact Us</h1>
+          <i class="fas fa-comment-alt"></i> <br>
+          <i color= "red" class="fas fa-phone"></i>
+      </div>
+      <!-- fotter part3 end -->
+     
+      </div>  
+      <!-- fotter section end --> 
+
+    
 </body>
 </html>

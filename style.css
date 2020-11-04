@@ -1,11 +1,13 @@
-/*index page classes*/
+/*All page classes*/
 .header_section{
     background-color: grey;
-    width: 1340px;
+    width: 100%;
+    float: left;
 }
 .header_section:hover{
     background-color: skyblue;
 }
+
 .content_section{
     background-color: skyblue;
     float: left;
@@ -31,12 +33,42 @@ table,th,td{
   border: 0px solid red;
   border-collapse: collapse;
 }
+/*
+navbar code
+*/
+nav{
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+
+}
+nav ul li{
+    width: 250px;
+    float: left;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    height: 50px;
+    text-align: center;
+    padding: 16px 10px 0px;
+    transition: all 1s;
+}
+nav:hover{
+    background-color:skyblue;
+    width: 100%;
+}
 
 iframe{
     border: 8px solid white;
     outline: 4px solid black;
     outline-offset: 5px;
 }
+/*All page classes end*/
 h1{
     font-family: 'Long Cang',cursive;
     font-weight: bold;
@@ -126,17 +158,17 @@ p{
     color: black;
     padding: 50px 5px 5px 5px;
 }
-/*index page classes end*/
+
 
 /*signup page classes*/
-.rightside{
-    height: 800px;
+.leftside{
+    height: 950px;
     width: 660px;
     background-color: skyblue;
     float: left;
 }
-.leftside{
-    height: 800px;
+.rightside{
+    height: 950px;
     width: 670px;
     float: left;
     border: 1px solid black;
